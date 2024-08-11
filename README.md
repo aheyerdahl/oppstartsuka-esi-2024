@@ -41,9 +41,10 @@ The `carLibrary` exposes nine void functions named `w`, `a`, `s`, `d`. `e`, `q`,
 
 ```cpp
 void w(bool button) {
-   if (button == UP) {
+  if (button == UP) {
       // button is released
-   } else if (button == DOWN) {
+   }
+  if (button == DOWN) {
       // button is pressed
    }
 }
